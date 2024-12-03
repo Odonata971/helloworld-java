@@ -1,1 +1,8 @@
+name: Build and deploy
+on:
+  push:
+    branches:
+      - main
 
+env:
+  PROJECT_VERSION: 1.0.0
